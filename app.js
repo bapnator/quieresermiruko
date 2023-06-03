@@ -6,7 +6,7 @@ let etiquetaAudio = document.createElement("audio")
 etiquetaAudio.setAttribute("src", "song.mp3")
 etiquetaAudio.play()
 })
-
+a = window.innerHeight
 function mueveElBoton() {
     width = window.innerWidth;
     height = window.innerHeight;

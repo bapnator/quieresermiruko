@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel=" stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="mobile.css" /> <!-- Agrega el enlace a la hoja de estilos para móviles -->
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Di que si :3</title>
+    <title>Di que sí :3</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style>
     </style>
     <script src="app.js"></script>
 </head>
 <body>
-    <audio controls autoplay>
-        <source src="song.mp3" type="audio/mpeg">
-    </audio>
-    <h1>Quieres ser mi ruko?</h1>
-    <button>  <input type="button" onclick="alert('Ahuevo eres mio <3')" id="btnSi" value="Simon Jota" /> </button>
-    <button><input type="button" id="btnNo" onmouseover="mueveElBoton()" value="Nel" /></button>
+    <div class="container">
+        <audio controls autoplay>
+            <source src="song.mp3" type="audio/mpeg">
+        </audio>
+        <h1>¿Quieres ser mi ruko?</h1>
+        <button onclick="alert('Ahuevo eres mío <3')" id="btnSi">Simon jota</button>
+        <button onmouseover="mueveElBoton()" id="btnNo">Nel</button>
+    </div>
 </body>
 </html>
