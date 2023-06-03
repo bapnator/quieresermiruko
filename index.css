@@ -1,9 +1,4 @@
 body {
-    height: 500px;
-    background-image: url("https://stickerly.pstatic.net/sticker_pack/1OzmnaU2rNLhyhkZpvaJQg/5LAD7V/14/62b562f7-f8a0-4d78-a871-a26ec5a1d331.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background: #2079b0;
     background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
     background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
@@ -11,7 +6,6 @@ body {
     background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
     background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
     text-decoration: none;
-    padding: 231px;
 }
 
 h1 {
